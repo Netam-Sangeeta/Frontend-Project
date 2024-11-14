@@ -1,0 +1,152 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .banner_text {
+    line-height: 24px;
+    font-size: 24px;
+  }
+  .logo {
+    margin-top: 0px !important;
+}
+.header-sticky.sticky-bar .h_bg {
+  padding-bottom: 0px !important;
+  padding-top: 10px !important;
+}
+  .wrapper {
+    padding:30px 0 !important;
+    overflow: hidden !important;
+  }
+  .box {
+    margin-bottom: 30px !important;
+  }
+  .foo_contact li {
+    float: left;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+  .table-responsive {
+    white-space: nowrap !important;
+  }
+  .page_wrapper {
+    margin-top: 100px;
+}
+  .banner h1, .choose_country h1 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+  }
+  .w150 {
+    max-width: 140px;
+    margin-bottom: 20px;
+  }
+  .banner {
+    padding: 5px;
+    margin-top: 114px;
+  }
+  .logo a img {
+    max-width: 250px;
+  }
+  .slicknav_menu .slicknav_icon {
+    position: relative;
+    right: 20px;
+    top: -20px;
+  }
+  .nav-link {
+    display: block;
+    padding: .2rem 0.2rem;
+}
+    .cn img {
+        max-width: 110px;
+      }
+      .cn h6 {
+        font-size: 18px!important;
+        padding-left: 15px;
+        line-height: 18px;
+      }
+      .cnt {
+          margin: 15px 25px !important;
+          position: relative;
+      }
+
+ 
+}
+
+
+@media screen and  (max-width: 767px) {
+  .container {
+    overflow: hidden !important;
+  }
+  .p_list li {
+    width: 98% !important;
+  }
+  .h_course a {
+    font-size: 18px !important;
+    margin-bottom: 15px;
+  }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+  }
+  .carousel-indicators {
+    bottom: -5px;
+  }
+  .table-responsive {
+    white-space: nowrap !important;
+  }
+  .page_wrapper {
+    margin-top: 100px !important;
+}
+.page_header {
+  height: 125px !important;
+}
+.page_header h2 {
+  font-size: 33px !important;
+  line-height: 0;
+}
+#carouselExampleIndicators {
+  margin-top: -148px !important;
+}
+.cu_header {
+  height: 250px !important;
+}
+  .banner h1, .choose_country h1 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+  }
+  .banner {
+    padding: 5px;
+    margin-top: 114px;
+  }
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.table-responsive {
+  white-space: nowrap !important;
+}
+.page_wrapper {
+  margin-top: 100px;
+}
+ 
+}
